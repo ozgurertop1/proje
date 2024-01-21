@@ -15,10 +15,10 @@ driver_avis = webdriver.Chrome()
 driver_enterprise = webdriver.Chrome()
 
 # Web sitesinin URL'si
-url1 = "https://www.avis.com.tr/rezervasyon/araciniz?id=IO_hMHEuGFriXGURTW8Qpze-cxbetB0L6kr1i1bjuUwGjIA33bZOz8mPyRejHVP_RXHIXk5elB6kJmTYWISuRaMM9MEV1FHArc34ZZ7jLsF3Eq79l-dxMqj6llbqUsUr2rScmMmIbdqF4oqH-HMVHw&utm_referrer=https%3A%2F%2Fwww.avis.com.tr%2F"
+url1 = "https://www.avis.com.tr/rezervasyon/araciniz?id=IO_hMHEuGFriXGURTW8Qp3DiYqOy5hYt9CeE66AxdwQFoJiIzELuJeZExRVDT_H3l_iX8I4cxPC3BcBSaTq_alw_UCD9Cre5eFIcjlm58dStvg0U8OLkBkSEsd1HMf_VyAZB3cvXPXyRgqKCmrR9LA&utm_referrer=https%3A%2F%2Fwww.avis.com.tr%2F"
 driver_avis.get(url1)
 
-url2 = "https://www.enterprise.com.tr/rezervasyon/istanbul-havalimani-arac-kiralama?dropOffLocation=istanbul-havalimani-arac-kiralama&start=2024-01-19T12:00&end=2024-01-21T12:00&age=21-24&campaign"
+url2 = "https://www.enterprise.com.tr/rezervasyon/istanbul-havalimani-arac-kiralama?dropOffLocation=istanbul-havalimani-arac-kiralama&start=2024-01-22T12:00&end=2024-01-24T12:00&age=21-24&campaign"
 driver_enterprise.get(url2)
 
 # Sayfanın tam yüklenmesini beklemek için bir bekleme tanımlama
